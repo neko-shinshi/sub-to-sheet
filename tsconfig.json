@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": false,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": ["bun-types"]
+  },
+  "exclude":[
+    "./node_modules"
+  ]
+}
